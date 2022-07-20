@@ -1,0 +1,46 @@
+/* 鼠标点击 */
+.pe-none {
+	pointer-events: none;
+}
+
+.pe-auto {
+	pointer-events: auto;
+}
+
+/* button重置 */
+.button-reset {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  background-color: transparent;
+  border:0
+}
+
+.button-reset::after {
+  border: none;
+}
+
+/*隐藏和显示*/
+.display-hide {
+	display: none;
+}
+
+.display-show {
+	display: block;
+}
+
+.opacity-hide {
+	opacity: 0;
+}
+
+.opacity-show {
+	opacity: 1;
+}
+
+/*隐藏滚动条*/
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+  display: none ;
+}
